@@ -70,6 +70,16 @@ $ls_dominio = $_SERVER['SERVER_NAME'];
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/style.css?v=<?php echo rand(); ?>">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7RZC3SS3F4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7RZC3SS3F4');
+  </script>
+
 </head>
 
 <body>
