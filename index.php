@@ -201,6 +201,8 @@ $ls_dominio = $_SERVER['SERVER_NAME'];
                   <h1>Digitalización del Comercio formal e informal en <span class="span-blanco"><?php echo $ls_lugar; ?></span>.</h1>
                 </div>
               <?php endif; ?>
+
+              Tianguis Digital <?php echo $ls_lugar; ?> - <?php echo date('Y'); ?> | Hecho con ❤️ por <a href="https://progresotecnologico.com">Progreso Tecnológico</a>.
             </div>
           </div>
         </div>

@@ -188,3 +188,20 @@ ul.entidades li a{
     font-size: 16px;
     text-transform: uppercase;
 }
+
+.text-left{
+    text-align: left !important;
+}
+
+label{
+    font-weight: bold;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-bg-success, .btn-success {
+    color: #fff !important;
+    background-color: #259f00 !important;
+}
